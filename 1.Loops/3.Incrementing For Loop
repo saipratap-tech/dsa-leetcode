@@ -1,0 +1,11 @@
+#A for loop that starts at 2, runs while i is less than 9, and increases i by 2 each time.
+
+start= int(input("Enter starts at number" ))
+stop = int(input("Enter stops at number"))
+if(start <= stop):
+ step = int(input("increase each each time number"))
+ for i in range(start,stop,step):
+        print(i)
+else:
+    print("ERROR : The starts number is always lessthan stop number ")
+  
