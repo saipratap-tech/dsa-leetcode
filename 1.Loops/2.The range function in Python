@@ -1,0 +1,18 @@
+# print numbers 0-4 using range function 
+
+print("PRINT NUMBERS ONLY USING STOP VALUE")
+for i in range(5):
+    print(i)
+
+print()
+
+print("PRINT NUMBERS USIGN START, STOP FOR RANGE FUNCITON")
+for i in range(0,5):
+    print(i)
+
+print()
+print("PRINT NUMBERS USIGN START,STOP,INC/DEC")
+for i in range(0,5,1):
+    print(i)
+
+""" NOTE : 1) In Range funciton start & step parameters are optional """
