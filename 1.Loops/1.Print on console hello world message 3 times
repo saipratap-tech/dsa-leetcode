@@ -1,0 +1,11 @@
+
+Method-1 : Manual writing 
+    print ("hello world")
+    print ("hello world")
+    print ("hello world")
+
+Method-2 : Using for Loop  
+
+#Print message 3 times using for loop
+for i in range (0,3):
+    print("Hello World")
