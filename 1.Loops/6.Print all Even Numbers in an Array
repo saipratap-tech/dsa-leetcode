@@ -1,0 +1,34 @@
+#Print all Even Number in an array
+
+Example: 
+Input:
+Number = [1,2,3,4,5,6,7,8,9,10]
+
+Output:#print all even number from the array
+2,4,6,8,10
+
+Logic : Divide a Number by 2, then
+        - Remainder is 0 = Even Number
+        - Remainder is ohter than zero = Not even number
+-----------------------------------------PYTHON CODE------------------------------
+
+
+
+Numbers = [1,1,1,1,1,1,0,2]
+#no.of elements in the array
+length = len(Numbers)
+
+
+#use loop to travese an array and print event number
+for i in range(0,length):
+    #logic the current numebr is even or not 
+    if((Numbers[i]%2) == 0):
+        print(Numbers[i])
+
+Output: 0,2
+
+Test Case-1 : [0,0,0,0]
+output : 0,0,0,0
+
+Test Case-2: [-1,-2,-3,-4,-5]
+output : -2,-4
