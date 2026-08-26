@@ -1,0 +1,29 @@
+#Calling a function inside a loop
+
+Function HelloWorld(){
+
+  print("Hello World")
+}
+
+# pritn hello world 5 times
+for(i=0;i<5;i++)
+{
+  #calling the function to print hellow world 
+   HelloWorld();
+}
+-------------------------------------------------------------------------------------------------
+#python code
+def HelloWorld():
+    print("Hello World")
+
+for i in range(0,5,1):
+
+    HelloWorld()
+
+
+#ouput
+Hello World
+Hello World
+Hello World
+Hello World
+Hello World
