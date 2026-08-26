@@ -1,0 +1,15 @@
+#Print hello World message usign a rever a loop
+Logic : Repeat the loop from n to 0 (n>1):
+
+Pseudo code:
+  zero = 0
+  For ( i = number ; i > zero; i--)
+  {
+      print("Hello World")
+   }
+
+Python Code:
+# Reverse a Loop
+for i in range(5,0,-1):
+    print(i)
+
