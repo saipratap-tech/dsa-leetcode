@@ -1,0 +1,27 @@
+#Find Number of Negative Numbers in an array
+
+Input : [1,5,7,0,-3,-85,-7]
+ouptut : 3
+
+Logic : 1) Go to each element, ask are u a number lessthan zero or not 
+          if less than zero --> count the number in counter varible
+          if greater thatn or equeal to zero --> ignore those numbers
+
+code:
+
+
+#No.of Negative numers in an array
+
+def Find_NegativeNumbers(Numbers):
+    count = 0
+    size = len(Numbers)
+
+    for i in range(0,size):
+        if(Numbers[i]<0):
+            count = count +1 
+    return count
+
+
+data = [10,25,67,-1,-8,-36,-8,]
+output = Find_NegativeNumbers(data)
+print(output)
