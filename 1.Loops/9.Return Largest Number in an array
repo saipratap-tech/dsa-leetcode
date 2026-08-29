@@ -1,0 +1,29 @@
+#Return Largest Number in an array
+
+Example:
+Numbers = [10,2,25,16,17,67]
+Output = 67
+
+Logic :
+
+1) Largest Number = First Number in array(Assuming )
+2) Go to each element and ask are u bigger than Largest_Number
+   if yes -->Update Largest Number
+   if NO --> Continue to checking further 
+
+Numbers = [17,2,5,65,32,1,0,-1,991]
+#Numbers =[]
+#Numbers =[1]
+
+
+size = len(Numbers)
+if(size == 0):
+    print("Array is empty")
+elif(size == 1):
+    print(Numbers[0])
+else:
+    Largest = Numbers[0]
+    for i in range(1,size):
+        if(Numbers[i]>Largest):
+            Largest = Numbers[i]
+    print(Largest)
