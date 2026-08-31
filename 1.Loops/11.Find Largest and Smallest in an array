@@ -1,0 +1,26 @@
+#Find Greatest Number and Smallest Number in an array
+
+Numbers = [5,4,6,3,2,1,0,19,-8]
+
+size = len(Numbers)
+
+if size == 0:
+    print("The Arrya is Empty")
+elif size == 1:
+    print("The Largest Number", Numbers[0])
+    print("The Smallest Number", Numbers[1])
+else:
+    smallest = Numbers[0]
+    largest  = Numbers[0]
+    for i in range(1,size):
+        if(smallest>Numbers[i]):
+            smallest=Numbers[i]
+        else:
+            if(largest<Numbers[i]):
+                largest=Numbers[i]
+    print("The Largest",largest)
+    print("The Smallest",smallest)
+
+OUTPUT:
+Largest = 19
+Smallest = -8
