@@ -1,0 +1,25 @@
+
+
+
+#2nd Largest
+Numbers = [-1,-2,-3,2,3,2,10,100]
+#Array size
+size = len(Numbers) 
+
+#The array size is less than 2 retun -1
+if(size<2):
+    print("The Array Size lessthan 2")
+else:
+    #Go to each element and ask are u largest and 2nd largest
+    # -inf : smallest number in python (Number system)
+    largest = float("-inf")
+    second_largest = float("-inf")
+    for i in range(0,size):
+        #Find 1st largest number
+        if(largest < Numbers[i]):
+            second_largest = largest
+            largest = Numbers[i]
+        #Find 2nd largest number 
+        elif(largest != Numbers[i] and second_largest < Numbers[i]):
+            second_largest = Numbers[i]
+    print("The Second Largest Number in an array is ",second_largest)
