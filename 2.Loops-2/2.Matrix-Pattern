@@ -1,0 +1,21 @@
+#Print Square/Rectangle Pattern
+
+rows = int(input("Enter No.of Rows"))
+col = int(input("Enter No.of Columns"))
+
+#Outer loop for No.Of Rows
+for i in range(0,rows):
+    #Inner Loop Print starts(*) in each row
+    for j in range(0,col):
+        print("*", end=" ")
+    print()
+
+
+
+OUTPUT:
+Enter No.of Rows4
+Enter No.of Columns4
+* * * * 
+* * * * 
+* * * * 
+* * * * 
